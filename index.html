@@ -7,45 +7,260 @@
   <meta name="keywords" content=" Web Hosting, Website Design, Cloud Storage" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="js/mail.js"></script>
+  <script src="js/main.js"></script>
+  <link rel="icon" type="image/png" href="images/icon.png">
 </head>
 
 <body>
   <div id="main">
-    <div id="header">
-      <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html"> Thorion <span class="logo_colour"> Technologies </span></a></h1>
-          <h2> Technology Solutions for your Business Problems.</h2>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"><img src="images/icon.png" alt="icon for Thorion Tech"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active px-2" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link px-2" href="business_solutions.html">Business Solutions</a>
+            <a class="nav-item nav-link px-2" href="web.html">Web Hosting / Design</a>
+            <a class="nav-item nav-link px-2" href="contact_us.html">Contact Us</a>
+          </div>
         </div>
-      </div>
-      <div id="menubar">
-        <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="selected"><a href="index.html">Home</a></li>
-          <li><a href="examples.html">Web Hosting</a></li>
-          <li><a href="page.html">Website Design</a></li>
-          <li><a href="another_page.html">Business Solutions</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
+      </nav>
+    </header>
+    <div id="title">
+          <h1> Thorion Technologies </h1>
+          <h2> Technology Solutions for your Business Problems.</h2>
     </div>
-    <div id="content_header"></div>
     <div id="site_content">
-      <div id="banner">
-        <h1>Welcome to Thorion Technologies </h1>
         <p> We are a Technology company that has a holistic solution to your business
            problems. We work with you to help make your company more efficient with the
             acquistion and installation of technical solutions. Some of our services
             include Web Design, Web Hosting, Web Optimization, Online Marketing,
             Graphic Design, Logo Design, Data Backup, Disaster Recovery, and Cloud Storage.
            </p>
+      <h3 class="title"> Some of the ways we can help you improve your business </h3>
       </div>
+  <div class="container">
+
+      <div class="row">
+           <div class="col-md-4 col-sm-6">
+               <div class="card-container">
+                  <div class="card">
+                      <div class="front">
+                          <div class="cover">
+                              <img src="images/marketingback.jpg"/>
+                          </div>
+                          <div class="user">
+                              <img class="img-circle" src="images/digital-marketing.png"/>
+                          </div>
+                          <div class="content">
+                              <div class="main">
+                                  <h3 class="name"> Online Presence </h3>
+                                  <p class="profession">Web Design, Hosting, Marketing </p>
+                                  <p class="text-center"> We offer a variety of digital publishing services,
+                                    including websites, text, audio, and video to enhance our customers' online
+                                    presence and increase their digital footprint.</p>
+                              </div>
+                              <div class="footer">
+                                  <i class="fa fa-mail-forward"></i> Hover Over to See More
+                              </div>
+                          </div>
+                      </div> <!-- end front panel -->
+                      <div class="back">
+                          <div class="header">
+                              <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                          </div>
+                          <div class="content">
+                              <div class="main">
+                                  <h4 class="text-center">Job Description</h4>
+                                  <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+
+                                  <div class="stats-container">
+                                      <div class="stats">
+                                          <h4>235</h4>
+                                          <p>
+                                              Followers
+                                          </p>
+                                      </div>
+                                      <div class="stats">
+                                          <h4>114</h4>
+                                          <p>
+                                              Following
+                                          </p>
+                                      </div>
+                                      <div class="stats">
+                                          <h4>35</h4>
+                                          <p>
+                                              Projects
+                                          </p>
+                                      </div>
+                                  </div>
+
+                              </div>
+                          </div>
+                          <div class="footer">
+                              <div class="social-links text-center">
+                                  <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                  <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                  <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                              </div>
+                          </div>
+                      </div> <!-- end back panel -->
+                  </div> <!-- end card -->
+              </div> <!-- end card-container -->
+          </div> <!-- end col sm 3 -->
+  <!--         <div class="col-sm-1"></div> -->
+          <div class="col-md-4 col-sm-6">
+               <div class="card-container manual-flip">
+                  <div class="card">
+                      <div class="front">
+                          <div class="cover">
+                              <img src="images/optimizeback.jpg"/>
+                          </div>
+                          <div class="user">
+                              <img class="img-circle" src="images/optimize.jpg"/>
+                          </div>
+                          <div class="content">
+                              <div class="main">
+                                  <h3 class="name" style="margin-top: -40px;">Operations Optimization</h3>
+                                  <p class="profession">Making sure your technology is making business easier</p>
+                                  <p class="text-center"> We will help transform your business through the management
+                                    and implementation of new apps, platforms, architecture and tech.
+                                    We&#39;ll partner with you to determine the right combination of technologies for
+                                   your business&#45;from the tech that exists today to the emerging tech of tomorrow.</p>
+                              </div>
+                              <div class="footer">
+                                  <button class="btn btn-simple" onclick="rotateCard(this)">
+                                      <i class="fa fa-mail-forward"></i> Click to Rotate
+                                  </button>
+                              </div>
+                          </div>
+                      </div> <!-- end front panel -->
+                      <div class="back">
+                          <div class="content">
+                              <div class="main">
+                                  <h4 class="text-center">Business Consulting</h4>
+                                  <p class="text-center">As a business advisor and business consultant in assessing
+                                  the business and giving guidance to management. We assure that the business strategy
+                                   is sound, validated and clearly focused. We work to align the strategy with
+                                   three critical dimensions of the business: Financial Customer Operations. </p>
+
+                                  <div class="stats-container">
+                                      <div class="stats">
+                                          <h4>235</h4>
+                                          <p>
+                                              Followers
+                                          </p>
+                                      </div>
+                                      <div class="stats">
+                                          <h4>114</h4>
+                                          <p>
+                                              Following
+                                          </p>
+                                      </div>
+                                      <div class="stats">
+                                          <h4>35</h4>
+                                          <p>
+                                              Projects
+                                          </p>
+                                      </div>
+                                  </div>
+
+                              </div>
+                          </div>
+                          <div class="footer">
+                              <button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="rotateCard(this)">
+                                  <i class="fa fa-reply"></i> Back
+                              </button>
+                              <div class="social-links text-center">
+                                  <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                  <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                  <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                              </div>
+                          </div>
+                      </div> <!-- end back panel -->
+                  </div> <!-- end card -->
+              </div> <!-- end card-container -->
+          </div> <!-- end col sm 3 -->
+  <!--         <div class="col-sm-1"></div> -->
+          <div class="col-md-4 col-sm-6">
+              <div class="card-container">
+                  <div class="card">
+                      <div class="front">
+                          <div class="cover">
+                              <img src="images/rotating_card_thumb3.png"/>
+                          </div>
+                          <div class="user">
+                              <img class="img-circle" src="images/rotating_card_profile.png"/>
+                          </div>
+                          <div class="content">
+                              <div class="main">
+                                  <h3 class="name">Inna Corman</h3>
+                                  <p class="profession">Product Manager</p>
+
+                                  <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                              </div>
+                              <div class="footer">
+                                  <div class="rating">
+                                      <i class="fa fa-mail-forward"></i> Hover Over to See More
+                                  </div>
+                              </div>
+                          </div>
+                      </div> <!-- end front panel -->
+                      <div class="back">
+                          <div class="header">
+                              <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                          </div>
+                          <div class="content">
+                              <div class="main">
+                                  <h4 class="text-center">Job Description</h4>
+                                  <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+
+                                  <div class="stats-container">
+                                      <div class="stats">
+                                          <h4>235</h4>
+                                          <p>
+                                              Followers
+                                          </p>
+                                      </div>
+                                      <div class="stats">
+                                          <h4>114</h4>
+                                          <p>
+                                              Following
+                                          </p>
+                                      </div>
+                                      <div class="stats">
+                                          <h4>35</h4>
+                                          <p>
+                                              Projects
+                                          </p>
+                                      </div>
+                                  </div>
+
+                              </div>
+                          </div>
+                          <div class="footer">
+                              <div class="social-links text-center">
+                                  <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                  <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                  <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                              </div>
+                          </div>
+                      </div> <!-- end back panel -->
+                  </div> <!-- end card -->
+              </div> <!-- end card-container -->
+          </div> <!-- end col-sm-3 -->
+      </div> <!-- end row -->
+      <div class="space-200"></div>
+    </div>
+
 	  <div id="sidebar_container">
         <div class="sidebar">
           <div class="sidebar_top"></div>
@@ -70,8 +285,32 @@
       </div>
     <div id="content_footer"></div>
     <div id="footer">
-      <p><a href="index.html">Home</a> | <a href="examples.html">Web Hosting</a> | <a href="page.html">Website Design</a> | <a href="another_page.html">Another Page</a> | <a href="contact.html">Contact Us</a></p>
+      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Thorion Tech</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="business_solutions.html">Business Solutions</a>
+            <a class="nav-item nav-link" href="web.html">Web Hosting / Design</a>
+            <a class="nav-item nav-link" href="contact_us.html">Contact Us</a>
+          </div>
+        </div>
+      </nav>
     </div>
   </div>
+  <script>
+  function rotateCard(btn){
+        var $card = $(btn).closest('.card-container');
+        console.log($card);
+        if($card.hasClass('hover')){
+            $card.removeClass('hover');
+        } else {
+            $card.addClass('hover');
+        }
+    }
+    </script>
 </body>
 </html>

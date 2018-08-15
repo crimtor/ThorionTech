@@ -1,267 +1,217 @@
 
-body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+body {
+  font: normal .80em 'trebuchet ms', arial, sans-serif;
   background: #FFF;
-  color: #555;}
-
-p
-{ padding: 0 0 20px 0;
-  line-height: 1.7em;}
-
-img
-{ border: 0;}
-
-h1, h2, h3, h4, h5, h6
-{ color: #362C20;
-  letter-spacing: 0em;
-  padding: 0 0 5px 0;}
-
-h1, h2, h3
-{ font: normal 170% 'century gothic', arial;
-  margin: 0 0 15px 0;
-  padding: 15px 0 5px 0;
-  color: #000;}
-
-h2
-{ font-size: 160%;
-  padding: 9px 0 5px 0;
-  color: #B48A7C;}
-
-h3
-{ font-size: 140%;
-  padding: 5px 0 0 0;}
-
-h4, h6
-{ color: #B48A7C;
-  padding: 0 0 5px 0;
-  font: normal 110% arial;
-  text-transform: uppercase;}
-
-h5, h6
-{ color: #888;
-  font: normal 95% arial;
-  letter-spacing: normal;
-  padding: 0 0 15px 0;}
-
-a, a:hover
-{ outline: none;
-  text-decoration: underline;
-  color: #B48A7C;}
-
-a:hover
-{ text-decoration: none;}
-
-blockquote
-{ margin: 20px 0;
-  padding: 10px 20px 0 20px;
-  border: 1px solid #E5E5DB;
-  background: #FFF;}
-
-ul
-{ margin: 2px 0 22px 17px;}
-
-ul li
-{ list-style-type: circle;
-  margin: 0 0 6px 0;
-  padding: 0 0 4px 5px;
-  line-height: 1.5em;}
-
-ol
-{ margin: 8px 0 22px 20px;}
-
-ol li
-{ margin: 0 0 11px 0;}
-
-.left
-{ float: left;
-  width: auto;
-  margin-right: 10px;}
-
-.right
-{ float: right;
-  width: auto;
-  margin-left: 10px;}
-
-.center
-{ display: block;
+  color: #555;
   text-align: center;
-  margin: 20px auto;}
-
-#main, #logo, #menubar, #site_content, #footer
-{ margin-left: auto;
-  margin-right: auto;}
-
-#header
-{
-  background: transparent url(images/world_technology.jpg) no-repeat;
-  background: #000;
-  border-bottom: 1px solid #3d3d3d;
-  height: 186px;}
-
-#banner
-{
-  width: 860px;
-  height: 180px;
-  margin-bottom: 20px;
-  border: 10px solid #DDD;}
-
-#logo
-{
-  width: 880px;
-  position: relative;
-  height: 140px;
-  background: #1d1d1d;}
-
-#logo #logo_text
-{  position: absolute;
-  top: 10px;
-  left: 0;}
-
-#logo h1, #logo h2
-{ font: normal 300% 'century gothic', arial, sans-serif;
-  border-bottom: 0;
-  text-transform: none;
-  margin: 0 0 0 9px;}
-
-#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover
-{ padding: 22px 0 0 0;
-  color: #FFF;
-  letter-spacing: 0.1em;
-  text-decoration: none;}
-
-#logo_text h1 a .logo_colour
-{ color: #5E4238;}
-
-#logo_text a:hover .logo_colour
-{ color: #5E4238;}
-
-#logo_text h2
-{ font-size: 120%;
-  padding: 4px 0 0 0;
-  color: #B48A7C;}
-
-#menubar
-{ width: 872px;
-  height: 45px;
-  padding-right: 8px;
-  background: #2D2D2D;
-  border-top: 1px solid #3D3D3D;}
-
-ul#menu
-{ float: right;
-  margin: 0;}
-
-ul#menu li
-{ float: left;
-  padding: 0 0 0 9px;
-  list-style: none;
-  margin: 8px 4px 0 4px;}
-
-ul#menu li a
-{ font: normal 100% 'trebuchet ms', sans-serif;
-  display: block;
-  float: left;
-  height: 20px;
-  padding: 6px 20px 5px 20px;
-  text-align: center;
-  color: #FFF;
-  text-decoration: none;
-  background: #5E4238;}
-
-ul#menu li.selected a
-{ height: 20px;
-  padding: 6px 20px 5px 11px;}
-
-ul#menu li.selected
-{ margin: 8px 4px 0 13px;
-  background: #B48A7C;}
-
-ul#menu li.selected a, ul#menu li.selected a:hover
-{ background: #B48A7C;
-  color: #FFF;}
-
-ul#menu li a:hover
-{ color: #B48A7C;}
-
-#site_content
-{ width: 880px;
-  overflow: hidden;
-  margin: 20px auto 0 auto;
-  padding: 0 0 10px 0;}
-
-#sidebar_container
-{ float: left;
-  width: 224px;}
-
-.sidebar
-{ float: right;
-  width: 222px;
-  padding: 0;
-  margin: 0 0 16px 0;}
-
-
-.sidebar li a.selected
-{ color: #444;}
-
-.sidebar ul
-{ margin: 0;}
-
-#content
-{ text-align: left;
-  width: 620px;
-  padding: 0 0 0 5px;
 }
 
-#content ul
-{ margin: 2px 0 22px 0px;}
+.navbar-nav {
+  margin-left: 55%;
+  font-size: 1.5em;
+  }
+.title {
+  color: #4553C1;
+}
 
-#content ul li, .sidebar ul li
-{ list-style-type: none;
-  margin: 0 0 0 0;
-  padding: 0 0 4px 25px;
-  line-height: 1.5em;}
+#title {
+  padding-top: 5%;
+} #title h1 {
+  font-weight: 600;
+  color: #151456;
+  font-size: 4.5em;
+}
+#site_content {
+  padding-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 1.5em;
+}
+/* Card Ability Written By Creative Tim */
+  /* entire container, keeps perspective */
+  .card-container {
+  	  -webkit-perspective: 800px;
+     -moz-perspective: 800px;
+       -o-perspective: 800px;
+          perspective: 800px;
+          margin-bottom: 30px;
+  }
+  /* flip the pane when hovered */
+  .card-container:not(.manual-flip):hover .card,
+  .card-container.hover.manual-flip .card{
+  	-webkit-transform: rotateY( 180deg );
+  -moz-transform: rotateY( 180deg );
+   -o-transform: rotateY( 180deg );
+      transform: rotateY( 180deg );
+  }
 
-#footer
-{ width: 100%;
-  font-family: 'trebuchet ms', sans-serif;
-  font-size: 100%;
-  height: 80px;
-  padding: 28px 0 5px 0;
-  text-align: center;
-  background: #000;
-  border-top: 2px solid #2D2D2D;
-  color: #FFF;}
 
-#footer p
-{ line-height: 1.7em;
-  padding: 0 0 10px 0;}
+  .card-container.static:hover .card,
+  .card-container.static.hover .card {
+  	-webkit-transform: none;
+  -moz-transform: none;
+   -o-transform: none;
+      transform: none;
+  }
+  /* flip speed goes here */
+  .card {
+  	 -webkit-transition: -webkit-transform .5s;
+     -moz-transition: -moz-transform .5s;
+       -o-transition: -o-transform .5s;
+          transition: transform .5s;
+  -webkit-transform-style: preserve-3d;
+     -moz-transform-style: preserve-3d;
+       -o-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  	position: relative;
+  }
 
-#footer a
-{ color: #FFF;
-  text-decoration: none;}
+  /* hide back of pane during swap */
+  .front, .back {
+  	-webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+       -o-backface-visibility: hidden;
+          backface-visibility: hidden;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	background-color: #FFF;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+  }
 
-#footer a:hover
-{ color: #B48A7C;
-  text-decoration: none;}
+  /* front pane, placed above back */
+  .front {
+  	z-index: 2;
+  }
+
+  /* back, initially hidden pane */
+  .back {
+  		-webkit-transform: rotateY( 180deg );
+     -moz-transform: rotateY( 180deg );
+       -o-transform: rotateY( 180deg );
+          transform: rotateY( 180deg );
+          z-index: 3;
+  }
+
+  .back .btn-simple{
+      position: absolute;
+      left: 0;
+      bottom: 4px;
+  }
+  /*        Style       */
 
 
-.separator
-{ width: 100%;
-  height: 0;
-  border-top: 1px solid #D9D5CF;
-  border-bottom: 1px solid #FFF;
-  margin: 0 0 20px 0;}
+  .card{
+      background: none repeat scroll 0 0 #FFFFFF;
+      border-radius: 4px;
+      color: #444444;
+  }
+  .card-container, .front, .back {
+  	width: 100%;
+  	height: 420px;
+  	border-radius: 4px;
+  }
+  .card .cover{
+      height: 150px;
+      overflow: hidden;
+      border-radius: 4px 4px 0 0;
+  }
+  .card .cover img{
+      width: 100%;
+  }
+  .card .user{
+      border-radius: 50%;
+      display: block;
+      height: 120px;
+      margin: -65px auto 0;
+      overflow: hidden;
+      width: 120px;
+  }
+  .card .user img{
+      background: none repeat scroll 0 0 #FFFFFF;
+      border: 4px solid #FFFFFF;
+      width: 100%;
+  }
 
-table
-{ margin: 10px 0 30px 0;}
+  .card .content{
+      background-color: rgba(0, 0, 0, 0);
+      box-shadow: none;
+      padding: 10px 20px 20px;
+  }
+  .card .content .main {
+      min-height: 160px;
+  }
+  .card .back .content .main {
+      height: 215px;
+  }
+  .card .name {
+      font-size: 22px;
+      line-height: 28px;
+      margin: 10px 0 0;
+      text-align: center;
+      text-transform: capitalize;
+  }
+  .card h5{
+      margin: 5px 0;
+      font-weight: 400;
+      line-height: 20px;
+  }
+  .card .profession{
+      color: #999999;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .card .footer {
+      border-top: 1px solid #EEEEEE;
+      color: #999999;
+      margin: 0px 0 0;
+      padding: 10px 0 0;
+      text-align: center;
+  }
+  .card .footer .social-links{
+      font-size: 18px;
+  }
+  .card .footer .social-links a{
+      margin: 0 7px;
+  }
+  .card .footer .btn-simple{
+      height: 40px;
+      margin-top: -5px;
+  }
+  .card .header {
+      padding: 15px 20px;
+      height: 90px;
+  }
+  .card .motto{
+      border-bottom: 1px solid #EEEEEE;
+      color: #999999;
+      font-size: 14px;
+      font-weight: 400;
+      padding-bottom: 10px;
+      text-align: center;
+  }
 
-table tr th, table tr td
-{ background: #3B3B3B;
-  color: #FFF;
-  padding: 7px 4px;
-  text-align: left;}
+  .card .stats-container{
+  	width: 100%;
+  	margin-top: 50px;
+  }
+  .card .stats{
+  	display: block;
+  	float: left;
+  	width: 33.333333%;
+  	text-align: center;
+  }
 
-table tr td
-{ background: #E5E5DB;
-  color: #47433F;
-  border-top: 1px solid #FFF;}
+  .card .stats:first-child{
+  	border-right: 1px solid #EEEEEE;
+  }
+  .card .stats:last-child{
+  	border-left: 1px solid #EEEEEE;
+  }
+  .card .stats h4{
+  	font-weight: 300;
+  	margin-bottom: 5px;
+  }
+  .card .stats p{
+  	color: #777777;
+  }

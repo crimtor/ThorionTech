@@ -62,6 +62,31 @@ and (max-device-width : 799px){
       }
 
 }
+
+header.masthead {
+  height: 100px;
+  margin-bottom: 50px;
+  color: white;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
 @media only screen
 and (min-device-width : 800px){
   .btn-front {
